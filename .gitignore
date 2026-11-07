@@ -1,0 +1,44 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+**/venv*/
+**/venv/
+backend/venv/
+backend/venv310/
+
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+*.log
+.expo/
+backend/server*.log
+
+# VS Code
+.vscode/
+
+backend/firebase.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large dataset dumps
+crop_yield.csv
+
+# 🚨 IMPORTANT (this fixes your error)
+AppData/
+
+# Optional
+frontend/google-services.json

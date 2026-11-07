@@ -1,0 +1,31 @@
+Best Model: Random Forest
+==================================================
+
+              precision    recall  f1-score   support
+
+       Apple       1.00      1.00      1.00        20
+      Banana       1.00      1.00      1.00        20
+   Blackgram       1.00      0.95      0.97        20
+    ChickPea       1.00      1.00      1.00        20
+     Coconut       1.00      1.00      1.00        20
+      Coffee       1.00      1.00      1.00        20
+      Cotton       1.00      1.00      1.00        20
+      Grapes       1.00      1.00      1.00        20
+        Jute       0.95      1.00      0.98        20
+ KidneyBeans       1.00      1.00      1.00        20
+      Lentil       1.00      1.00      1.00        20
+       Maize       0.95      1.00      0.98        20
+       Mango       1.00      1.00      1.00        20
+   MothBeans       1.00      1.00      1.00        20
+    MungBean       1.00      1.00      1.00        20
+   Muskmelon       1.00      1.00      1.00        20
+      Orange       1.00      1.00      1.00        20
+      Papaya       1.00      1.00      1.00        20
+  PigeonPeas       1.00      1.00      1.00        20
+ Pomegranate       1.00      1.00      1.00        20
+        Rice       1.00      0.95      0.97        20
+  Watermelon       1.00      1.00      1.00        20
+
+    accuracy                           1.00       440
+   macro avg       1.00      1.00      1.00       440
+weighted avg       1.00      1.00      1.00       440

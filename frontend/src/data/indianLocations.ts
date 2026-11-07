@@ -1,0 +1,32 @@
+/** State → District mapping for Indian locations */
+const INDIAN_LOCATIONS: Record<string, string[]> = {
+  "Andhra Pradesh": ["Anantapur", "Chittoor", "Guntur", "Krishna", "Kurnool", "Nellore", "Visakhapatnam"],
+  "Assam": ["Barpeta", "Cachar", "Dibrugarh", "Jorhat", "Kamrup", "Nagaon", "Tinsukia"],
+  "Bihar": ["Gaya", "Muzaffarpur", "Nalanda", "Patna", "Purnia", "Rohtas", "Samastipur"],
+  "Chhattisgarh": ["Bastar", "Bilaspur", "Durg", "Raipur", "Rajnandgaon", "Surguja"],
+  "Goa": ["North Goa", "South Goa"],
+  "Gujarat": ["Ahmedabad", "Anand", "Banaskantha", "Junagadh", "Rajkot", "Surat", "Vadodara"],
+  "Haryana": ["Ambala", "Gurugram", "Hisar", "Karnal", "Panipat", "Rohtak", "Sirsa"],
+  "Himachal Pradesh": ["Chamba", "Hamirpur", "Kangra", "Kullu", "Mandi", "Shimla", "Solan"],
+  "Jharkhand": ["Bokaro", "Dhanbad", "Dumka", "Hazaribagh", "Jamtara", "Ranchi"],
+  "Karnataka": ["Belagavi", "Bengaluru Rural", "Bengaluru Urban", "Dharwad", "Kalaburagi", "Mysuru", "Shivamogga", "Tumakuru"],
+  "Kerala": ["Alappuzha", "Ernakulam", "Idukki", "Kannur", "Kozhikode", "Palakkad", "Thiruvananthapuram"],
+  "Madhya Pradesh": ["Bhopal", "Chhindwara", "Gwalior", "Indore", "Jabalpur", "Sagar", "Ujjain"],
+  "Maharashtra": ["Ahmednagar", "Aurangabad", "Jalgaon", "Kolhapur", "Nagpur", "Nashik", "Pune", "Solapur", "Thane"],
+  "Manipur": ["Bishnupur", "Churachandpur", "Imphal East", "Imphal West", "Thoubal"],
+  "Meghalaya": ["East Garo Hills", "East Khasi Hills", "Ri-Bhoi", "South West Khasi Hills", "West Garo Hills"],
+  "Mizoram": ["Aizawl", "Champhai", "Kolasib", "Lunglei", "Serchhip"],
+  "Nagaland": ["Dimapur", "Kohima", "Mokokchung", "Mon", "Tuensang", "Wokha"],
+  "Odisha": ["Balasore", "Bhubaneswar", "Cuttack", "Ganjam", "Kalahandi", "Khordha", "Puri", "Sambalpur"],
+  "Punjab": ["Amritsar", "Bathinda", "Jalandhar", "Ludhiana", "Patiala", "Sangrur"],
+  "Rajasthan": ["Ajmer", "Alwar", "Bikaner", "Jaipur", "Jodhpur", "Kota", "Udaipur"],
+  "Sikkim": ["East Sikkim", "North Sikkim", "South Sikkim", "West Sikkim"],
+  "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai", "Salem", "Thanjavur", "Tiruchirappalli", "Vellore"],
+  "Telangana": ["Hyderabad", "Karimnagar", "Khammam", "Mahabubnagar", "Nalgonda", "Nizamabad", "Warangal"],
+  "Tripura": ["Dhalai", "Gomati", "Khowai", "Sepahijala", "South Tripura", "West Tripura"],
+  "Uttar Pradesh": ["Agra", "Aligarh", "Allahabad", "Bareilly", "Gorakhpur", "Kanpur", "Lucknow", "Meerut", "Varanasi"],
+  "Uttarakhand": ["Dehradun", "Haridwar", "Nainital", "Udham Singh Nagar"],
+  "West Bengal": ["Bankura", "Darjeeling", "Hooghly", "Howrah", "Kolkata", "Murshidabad", "Nadia", "Purulia"],
+};
+
+export default INDIAN_LOCATIONS;
